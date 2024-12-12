@@ -9,12 +9,13 @@ while tuloy == True:
     a = int(input("\nCHOOSE ONLY ONE CHALLENGE U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
     if a == 1:
         os.system("cls")
-        def cc1(cc1):
+        def cc1():
             print("\nTHIS IS CODE CHALLENGE 1")
+            print("and this is the input \n print\t\t\t\t\t\t\t\t\b*\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b\b\b*********\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b*")
             print("\t\t\t\t\t\t\t\t\b*\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b\b\b*********\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b*")
-        cc1(cc1)
+        cc1()
         continue
-    if a == 2:
+    elif a == 2:
         os.system('cls')
         def cc2(cc2):
             name = input("Please enter a name: ")
@@ -22,7 +23,7 @@ while tuloy == True:
         cc2(cc2)
         continue
 
-    if a == 3:
+    elif a == 3:
         os.system('cls')
         def cc3(cc3):
             Fullname = input ("FULL NAME: ")
