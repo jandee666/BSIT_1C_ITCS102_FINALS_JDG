@@ -6,11 +6,7 @@ print("\nGood day! I'm John Derick Gaviola and this is the programs I created th
 tuloy = True
 while tuloy == True:
     print("\n======================================================================================\n\nCode_Challenge1 --- 1 \tCode_Challenge11 --- 11 \tActivity1 --- 101 \nCode_Challenge2 --- 2 \tCode_Challenge12 --- 12 \tActivity2 --- 102 \nCode_Challenge3 --- 3 \tCode_Challenge13 --- 13 \tActivity3 --- 103 \nCode_Challenge4 --- 4 \tCode_Challenge14 --- 14 \tActivity4 --- 104 \nCode_Challenge5 --- 5 \tCode_Challenge15 --- 15 \tActivity5 --- 105 \nCode_Challenge6 --- 6 \tCode_Challenge16 --- 16\nCode_Challenge7 --- 7 \nCode_Challenge8 --- 8 \nCode_Challenge9 --- 9 \nCode_Challenge10 -- 10")
-<<<<<<< HEAD
     a = int(input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
-=======
-    a = int(input("\nCHOOSE ONLY ONE CHALLENGE U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
->>>>>>> 8ad3dfe3a077999248eed132496a60dc76b1c435
     if a == 1:
         os.system("cls")
         def cc1():
@@ -24,7 +20,6 @@ while tuloy == True:
         def cc2(cc2):
             print("THIS IS CODE CHALLENGE 2")
             name = input("Please enter a name: ")
-<<<<<<< HEAD
             print("Hi "+name, "luv u")
         cc2(cc2)
         continue
@@ -390,9 +385,6 @@ while tuloy == True:
         os.system('cls')
         def cc16(cc16):
             print("THIS IS CODE CHALLENGE 16")
-
-
-=======
             print("Hi"+name, "luv u")
         cc2(cc2)
         continue
@@ -413,8 +405,6 @@ while tuloy == True:
             Mname = input ("MOTHER'S NAME: ")
             Contact = input ("CONTACT NUMBER: ")
             Email = input ("EMAIL ADDRESS: ")
->>>>>>> 8ad3dfe3a077999248eed132496a60dc76b1c435
-
             print ("\nMy name is " + Fullname + ", I'm " + Age + " years old, I was born on "+ Birthday +" at "+ Birthplace +" and I'm "+ Gender +". My hobbies/interests is/are "+ Hobbies +". I'm also a/an "+ Religion +" and my nationality is "+ Ethnicity +" and currently living at "+ Add +". My father's name is "+ Fname +" and my mother's name is "+ Mname +". And this is my contact No. and email: "+ Contact+" and "+ Email +" Thankyou!")
         cc3(cc3)
         continue
