@@ -385,8 +385,8 @@ while tuloy == True:
         os.system('cls')
         def cc16(cc16):
             print("THIS IS CODE CHALLENGE 16")
-            print("Hi"+name, "luv u")
-        cc2(cc2)
+            
+        cc16(cc16)
         continue
 
     elif a == 101:
@@ -579,4 +579,198 @@ while tuloy == True:
         act9(act9)
         continue
 
-    # elif a == 110
+    elif a == 110:
+        os.system('cls')
+        def act10(act10):
+            print("THIS IS ACTIVITY 10")
+            isDLL = input("Are you a current student of DLL? (yes or no) ")
+
+            if isDLL.lower() == 'yes':
+                print("\nWelcome to DLL!")
+                level = input("\nWhat is your current year level right now in DLL? \nF - Freshmen \nS - Sophomore \nJ - Junior \nR - Senior \nPlease type your answer: ")
+
+                if level.lower() == 'f':
+                    print("\nHi Freshmen!")
+                elif level.lower() == 's':
+                    print("\nHi Sophomore!")
+                elif level.lower() == 'j':
+                    print("\nHi Junior!")
+                elif level.lower() == 'r':
+                    print("\nHi Senior!")
+                else:
+                    print("\nInvalid Choice")
+
+            else:	
+                print("oki")
+        act10(act10)
+        continue
+
+    elif a == 111:
+        os.system('cls')
+        def act11(act11):
+            print("THIS IS ACTIVITY 11")
+            #print Hello World 10 times
+            for x in range (1, 11):
+                print("\nHello World")
+                print("Welcome!")
+                name = input("enter your name: ")
+                print(f"Hello {name}")
+        act11(act11)
+        continue
+
+    elif a == 112:
+        os.system('cls')
+        def act12(act12):
+            print("THIS IS ACTIVITY 12")
+            # 10 to 1
+            for x in range (10, 0, -1):
+                print(x)
+        act12(act12)
+        continue
+
+    elif a == 113:
+        os.system('cls')
+        def act13(act13):
+            print("THIS IS ACTIVITY 13")
+            #factorial
+            num = eval(input("enter a number: "))
+
+            f = 1
+
+            for x in range(num, 0, -1):
+                f *= x
+
+            print(f"The factorial of {num} is {f}")
+        act13(act13)
+        continue
+
+    elif a == 114:
+        os.system('cls')
+        def act14(act14):
+            print("THIS IS ACTIVITY 14")
+            # washing machine
+            # settings
+            for x in range (0, 10):
+                for y in range (0, 10):
+                    print("", end = "")
+                print("labyu") #laundry
+
+        act14(act14)
+        continue
+
+    elif a == 115:
+        os.system("cls")
+        def act15(act15):
+            print("THIS IS ACTIVITY 15")
+            for i in range (11, 0, -1):
+                print(end="")
+                for y in range ( 11, i, -1):
+                    print("*", end="")
+                print()
+        act15(act15)
+        continue
+
+    elif a == 116:
+        os.system('cls')
+        def act16(act16):
+            print('THIS IS ACTIVITY 16')
+            for a in range (1,6):
+                for b in range (1, a+1):
+                    print(" ", end=" ")
+                for c in range (6, a, -1):
+                    print(" * ",end=" ")
+                print()
+        act16(act16)
+        continue
+
+    elif a == 117:
+        os.system("cls")
+        def act17(act17):
+            print("THIS IS ACTIVITY 17")
+            #multiplication table
+            a = eval(input("Enter a column:  "))
+            for b in range (1,11):
+                for c in range (1, a +1):
+                    print(f"{b} x {c} = {a*b}", end = "\t")
+                print( )
+        act17(act17)
+        continue
+
+    elif a == 118:
+        os.system('cls')
+        def act18(act18):
+            print("THIS IS ACTIVITY 18")
+            import os
+
+            col = eval(input("how many do u want to make? "))
+            for a in range (1,6):
+                for d in range (1,col + 1):
+                    for b in range (1, a + 1):
+                        print ("*", end=" ")
+
+                    for c in range ( 6, a, -1):
+                        print(" ", end=" ")
+                print()
+        act18(act18)
+        continue
+
+    elif a == 119:
+        os.system('cls')
+        def act19(act19):
+            print("THIS IS ACTIVITY 19")
+            #requirements and syntax of a while loop
+            #sceario, ask user to give a name, and say hi to that name until user types the word 'stop'
+
+            #boolean variable / trigger
+            tuloy = True
+
+            #keyword while
+
+            while tuloy == True:
+                name = input("name: ")
+
+                #stopping point
+                if name.lower()== "stop":
+                    print("\tProgram Terminated")
+                    break
+                    #tuloy = False
+                else:
+                    continue
+        act19(act19)
+        continue
+
+    elif a == 120:
+        os.system('cls')
+        def act20(act20):
+            print("THIS IS ACTIVITY 20")
+            #HYBRID LOOP
+            import os
+            isContinue = True
+            no = 0
+            while isContinue == True:
+                ask = input("do u want triangle? (yes/no): ")
+
+                if ask.lower()== "no":
+                    print("\tProgram Terminated")
+                    break
+                    isContinue = False
+                else:
+                    os.system('cls')
+                    no += 1
+                    for a in range (1,6):
+                        for d in range (1,no + 1):
+                            for b in range (1, a + 1):
+                                print ("*", end=" ")
+
+                            for c in range ( 6, a, -1):
+                                print(" ", end=" ")
+                        print()
+                    continue
+        act20(act20)
+        continue
+
+
+
+
+
+
