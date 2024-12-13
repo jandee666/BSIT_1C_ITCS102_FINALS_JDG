@@ -5,7 +5,7 @@ print("\nGood day! I'm John Derick Gaviola and this is the programs I created th
 
 tuloy = True
 while tuloy == True:
-    print("\n======================================================================================\n\nCode_Challenge1 --- 1 \tCode_Challenge11 --- 11 \tActivity1 --- 101 \nCode_Challenge2 --- 2 \tCode_Challenge12 --- 12 \tActivity2 --- 102 \nCode_Challenge3 --- 3 \tCode_Challenge13 --- 13 \tActivity3 --- 103 \nCode_Challenge4 --- 4 \tCode_Challenge14 --- 14 \tActivity4 --- 104 \nCode_Challenge5 --- 5 \tCode_Challenge15 --- 15 \tActivity5 --- 105 \nCode_Challenge6 --- 6 \tCode_Challenge16 --- 16\nCode_Challenge7 --- 7 \nCode_Challenge8 --- 8 \nCode_Challenge9 --- 9 \nCode_Challenge10 -- 10")
+    print("\n====================================================================================== \n\nCode Challenge1 === 1 \t\tActivity1 === 101 \nCode Challenge2 === 2 \t\tActivity2 === 102 \nCode Challenge3 === 3 \t\tACtivity3 === 103 \nCode Challenge4 === 4 \t\tActivity4 === 104 \nCode Challenge5 === 5 \t\tActivity5 === 105 \nCode Challenge6 === 6 \t\tActivity6 === 106 \nCode Challenge7 === 7 \t\tActivity7 === 107 \nCode Challenge8 === 8 \t\tActivity8 === 108 \nCode Challenge9 === 9 \t\tActivity9 === 109 \nCode Challenge10 == 10 \t\tACtivity10 == 110 \nCode Challenge11 == 11 \t\tActivity11 == 111 \nCode Challenge12 == 12 \t\tActivity12 == 112 \nCode Challenge13 == 13 \t\tActivity13 == 113 \nCode Challenge14 == 14 \t\tActivity14 == 114 \nCode Challenge15 == 15 \t\tActivtiy15 == 115 \nCode Challenge16 == 16 \t\tActivity16 == 116 \n\t\t\t\tActivity17 == 117 \n\t\t\t\tActivity18 == 118 \n\t\t\t\tActivity19 == 119 \n\t\t\t\tActivity20 == 120 \n\t\t\t\tActivity21 == 121 \n\t\t\t\tActivity22 == 122 \n\t\t\t\tActivity23 == 123 \n\t\t\t\tActivity24 == 124 \n\t\t\t\tActivity25 == 125 \n======================================================================================")
     a = int(input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
     if a == 1:
         os.system("cls")
@@ -19,8 +19,8 @@ while tuloy == True:
         os.system('cls')
         def cc2(cc2):
             print("THIS IS CODE CHALLENGE 2")
-            name = input("Please enter a name: ")
-            print("Hi "+name, "luv u")
+            name = input ("Your name: ")
+            print(" \t\t\t\t\t\t\t\t\b*\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b\b\b*"+name+"*\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b*")
         cc2(cc2)
         continue
 
@@ -389,9 +389,27 @@ while tuloy == True:
         cc2(cc2)
         continue
 
-    elif a == 3:
+    elif a == 101:
         os.system('cls')
-        def cc3(cc3):
+        def act1(act1):
+            print("THIS IS ACTIVITY 1")
+            print("\nHello World!")
+        act1(act1)
+        continue
+
+    elif a == 102: 
+        os.system('cls')
+        def act2(act2):
+            print("THIS IS ACTIVITY 2")
+            name = input("Please enter a name: ")
+            print("\nHi "+name, "luv u")
+        act2(act2)
+        continue
+
+    elif a == 103:
+        os.system('cls')
+        def act3(act3):
+            print("THIS IS ACTIVITY 3\n")
             Fullname = input ("FULL NAME: ")
             Age = input ("AGE: ")
             Birthday = input ("BIRTHDAY: ")
@@ -405,12 +423,15 @@ while tuloy == True:
             Mname = input ("MOTHER'S NAME: ")
             Contact = input ("CONTACT NUMBER: ")
             Email = input ("EMAIL ADDRESS: ")
+
             print ("\nMy name is " + Fullname + ", I'm " + Age + " years old, I was born on "+ Birthday +" at "+ Birthplace +" and I'm "+ Gender +". My hobbies/interests is/are "+ Hobbies +". I'm also a/an "+ Religion +" and my nationality is "+ Ethnicity +" and currently living at "+ Add +". My father's name is "+ Fname +" and my mother's name is "+ Mname +". And this is my contact No. and email: "+ Contact+" and "+ Email +" Thankyou!")
-        cc3(cc3)
+        act3(act3)
         continue
-    elif a == 4:
+
+    elif a == 104:
         os.system('cls')
-        def cc4(cc4):
+        def act4(act4):
+            print("THIS IS ACTIVITY 4\n")
             number1 = eval(input("Put a digit here: "))
 
             number2 = eval(input("Put a digit here: "))
@@ -436,74 +457,126 @@ while tuloy == True:
             print("The remainder of ", number1 ," and ", number2 ," is ", answer5)
             print("The exponent of ", number1 ," and ", number2 ," is ", answer6)
             print("The floor division of ", number1 ," and ", number2 ," is ", answer7)
-        cc4(cc4)
+        act4(act4)
         continue
 
-    elif a == 5:
+    elif a == 105:
         os.system('cls')
-        def cc5(cc5):
-            name = input("ENTER YOUR NAME: ")
-            number1 = eval(input("ENTER AMOUNT TO DEPOSIT: "))
-            answer1 = number1 // 1000
-            ans1 = number1 % 1000
-            answer2 = ans1 // 500
-            ans2 = ans1 % 500
-            answer3 = ans2 // 200
-            ans3 = ans2 % 200
-            answer4 = ans3 // 100
-            ans4 = ans3 % 100
-            answer5 = ans4 // 50
-            ans5 = ans4 % 50
-            answer6 = ans5 // 20
-            ans6 = ans5 % 20
-            answer7 = ans6 // 10
-            ans7 = ans6 % 10
-            answer8 = ans7 // 5
-            ans8 = ans7 % 5
-            answer9 = ans8 // 1
-            ans9 = ans8 % 1
+        def act5(act5):
+            print("THIS IS ACTIVITY 5\n")
+            print("FAHRENHEIT TO CELSIUS CONVERTER ")
+            temp = eval(input("\nEnter Temperature in Fahrenheit: "))
+            
+            celsius = (temp - 32) * 5 / 9 
 
-            print("\nHi ",name," the breakdown of your deposit is: ")
-            print(answer1,"-1000")
-            print(answer2,"-500")
-            print(answer3,"-200")
-            print(answer4,"-100")
-            print(answer5,"-50")
-            print(answer6,"-20")
-            print(answer7,"-10")
-            print(answer8,"-5")
-            print(answer9,"-1")
-        cc5(cc5)
+            print ("\nThe Conversion of",temp,"degrees Fahrenheit is", celsius, "degrees celsius. ")
+            
+            print(f"\nThe Conversion of {temp} degrees Fahrenheit is {celsius} degrees celsius.\n")
+
+            print(round(celsius, 2))
+
+            print(f"\nThis Conversion of {temp} degrees Fahrenheit is {round(celsius, 2)} degrees celsius.")
+        act5(act5)
         continue
-
-    elif a == 6:
+    
+    elif a == 106:
         os.system('cls')
-        def cc6(cc6):
-            #Grading system
-            #75 and above is considered PASS 
-            #74 and below FAILED
+        def act6(act6):
+            print("THIS IS ACTIVITY 6\n")
+            x = 5
+            print(x)
 
-            prelim = eval(input("\nEnter your grade for Prelims: "))
-            mid = eval(input("Enter your grade for Midterms: "))
-            semifinals = eval(input("Enter your grade for Semifinals: "))
-            final = eval(input("Enter your grade for Finals: "))
-            quiz = eval(input("Enter your grade for Quizzes: "))
-            proj = eval(input("Enter your grade for Projects: "))
+            x = 10
+            print(x)
 
-            grade = (prelim * .15) + (mid * .15) + (semifinals * .15) + (final * .15) + (quiz * .15) + (proj * .15)
+            x = 15
+            print(x)
 
-            if grade > 100:
-                    print("\nYour grade has exceeded maximum value")
+            x = 20 
+            print(x)
 
-            elif grade >= 75:
-                print(f"\nYour grade is {grade}")
-                print("Congrats! You Passed!")
-
-            else: 	
-                print(f"\nYour Grade is {grade}")
-                print("Sorry, You failed.")
-
-            print("\nThank you!")
-        cc6(cc6)
+            x += 25
+            print(x)
+            
+            x -= 30
+            print(x)
+        act6(act6)
         continue
-  
+
+    elif a == 107:
+        os.system('cls')
+        def act7(act7):
+            print("THIS IS ACTIVITY 7\n")
+            gold = 0 
+
+            miner = input("Hi, please enter your name: ")
+
+            hasMine = input("Did you mine gold today? ")
+
+            if hasMine.lower() == "yes":	  
+                gold += 1
+                print(f"\nHi {miner}, Today you have a total of {gold} gold")
+            else:
+                print(f"\nHi {miner}, Today you have a total of {gold} gold")
+        act7(act7)
+        continue
+
+    elif a == 108:
+        os.system('cls')
+        def act8(act8):
+            print("THIS IS ACTIVITY 8\n")
+            password = input("Enter your password: ")
+
+            if password.lower() == "secret":
+                print("Access Granted!")
+                print("Welcome!")
+
+            elif password.lower() == "hidden":
+                print("Access Granted, Master!")
+                print("Welcome, Master!")
+
+            else: 
+                print("Wrong password, try again!")
+
+            print("Thankyou for using the system!")
+
+        act8(act8)
+        continue
+
+    elif a == 109:
+        os.system('cls')
+        def act9(act9):
+            print("THIS IS ACTIVITY 9\n")
+            #age
+            age = eval(input("Enter your age: "))
+
+            if age > 100:
+                print("\nyou are an Ancient One")
+
+            elif age >= 60:
+                print("\nyou are a Senior Citizen")
+
+            elif age >= 46:	
+                print("\nyou are in a Post Adulthood")
+
+            elif age >= 32:
+                print("\nyou are in a Mid Adulthood")
+
+            elif age >= 19:
+                print("\nyou are in a Early Adulthood")
+
+            elif age >= 14:
+                print("\nyou are a Teenager")
+
+            elif age >= 8:
+                print("\nyou are a Pre teen")
+
+            elif age >= 1:
+                print("\nyou are a Toddler")
+
+            elif age < 1:
+                print("\nCondolence :(")
+        act9(act9)
+        continue
+
+    # elif a == 110
