@@ -6,7 +6,7 @@ print("\nGood day! I'm John Derick Gaviola and this is the programs I created th
 tuloy = True
 while tuloy == True:
     print("\n======================================================================================\n\nCode_Challenge1 --- 1 \tCode_Challenge11 --- 11 \tActivity1 --- 101 \nCode_Challenge2 --- 2 \tCode_Challenge12 --- 12 \tActivity2 --- 102 \nCode_Challenge3 --- 3 \tCode_Challenge13 --- 13 \tActivity3 --- 103 \nCode_Challenge4 --- 4 \tCode_Challenge14 --- 14 \tActivity4 --- 104 \nCode_Challenge5 --- 5 \tCode_Challenge15 --- 15 \tActivity5 --- 105 \nCode_Challenge6 --- 6 \tCode_Challenge16 --- 16\nCode_Challenge7 --- 7 \nCode_Challenge8 --- 8 \nCode_Challenge9 --- 9 \nCode_Challenge10 -- 10")
-    a = int(input("\nCHOOSE ONLY ONE CHALLENGE U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
+    a = int(input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
     if a == 1:
         os.system("cls")
         def cc1():
@@ -80,7 +80,7 @@ while tuloy == True:
     elif a == 5:
         os.system('cls')
         def cc5(cc5):
-            print("THIS IS CODE CHALLENGE")
+            print("THIS IS CODE CHALLENGE 5")
             name = input("ENTER YOUR NAME: ")
             number1 = eval(input("ENTER AMOUNT TO DEPOSIT: "))
             answer1 = number1 // 1000
@@ -146,4 +146,245 @@ while tuloy == True:
             print("\nThank you!")
         cc6(cc6)
         continue
-  
+
+    elif a == 7:
+        os.system('cls')
+        def cc7(cc7):
+            print("THIS IS CODE CHALLENGE 7")
+            name = input("Your name: ")
+            grocery = input("Do you want to buy? (yes or no): ")
+            if grocery.lower() == 'yes':
+                print("\nTHIS IS OUR PRODUCTS: \nHOT DOG - $100 \nCORN DOG - $120 \nCHEESY DOG - $150")
+
+                quanti = eval(input("\nHow many HOT DOG you want to buy? "))
+                prc = (quanti * 100)
+                
+                quanti2 = eval(input("\nHow many CORN DOG you want to buy? "))
+                prc2 = (quanti2 * 120)
+                
+                quanti3 = eval(input("\nHow many CHEESY DOG you want to buy? "))
+                prc3 = (quanti3 * 150)
+                
+                total = prc + prc2 + prc3
+                tax = round(total * 0.123)
+                ttax = round(total + tax)
+
+                id = input("\nDo you have Senior/Student/PWD ID? (yes or no): ")
+                if id.lower() == 'yes': 
+                    discount = round(ttax * 0.052)
+                else: 	
+                    discount = 0
+
+                print(f"\nGood day {name}!, you ordered {quanti}pcs of HOT DOG, {quanti2}pcs of CORN DOG and {quanti3}pcs of CHEESY DOG with a price of ${total} with 12.3% of tax with a total of ${ttax}.")
+                        
+                money = eval(input("\nPlease type the amount you'll give: $"))
+                if money >= ttax:
+                    change = round(money - ttax + discount)
+                    print(f"\n\t\t\t==RECEIPT== \nQty.     Description           Amount\n{quanti}x  ---- HOT DOG ($100) ------ ${prc} \n{quanti2}x  ---- CORN DOG ($120) ----- ${prc2} \n{quanti3}x  ---- CHEESY DOG ($150) --- ${prc3} \n\t SUBTOTAL ------------ ${total} \n\t SALES TAX (12.3%) --- ${tax} \n\t TOTAL --------------- ${ttax} \n\t AMOUNT OF PAY ------- ${money}\n\t DISCOUNT (5.2%) ----- ${discount} \n\t CHANGE -------------- ${change} \n\t\t ==THANK YOU FOR SHOPPING!==")
+                else:
+                    money<= ttax
+                    print("\ninsufficient amount, please try again.\n")
+
+                    
+            else: 
+                print("\nokay!")	
+        cc7(cc7)
+        continue
+    
+    elif a == 8:
+        os.system('cls')
+        def cc8(cc8):
+            print("THIS IS CODE CHALLENGE 8")
+            #collect/fetch 10 numbers from the user
+            odd = 0
+            even = 0
+            sum = 0
+
+            for x in range (1, 11):
+                #sum = 0
+                num = int(input(f"\nEnter #{x}: "))
+                sum += num
+                if (num % 2) == 0:
+                    num += sum == even
+                    print("even")
+                else:
+                    num += sum == odd
+                    print("odd")
+
+            print(f"\nThe sum of all given numbers is {sum}\n")
+        cc8(cc8)
+        continue
+
+    elif a == 9:
+        os.system('cls')
+        def cc9(cc9):
+            print("THIS IS CODE CHALLENGE 9")
+            for a in range (11, 0 , -1):
+                for b in range (11, a, -1):
+                    print(" ",end="")
+                print("*" *a)
+        cc9(cc9)
+        continue
+
+    elif a == 10:
+        os.system('cls')
+        def cc10(cc10):
+            print("THIS IS CODE CHALLENGE 10")
+            for a in range (6,1,-1):
+                for b in range (a,1,-1):
+                    print(" ", end=" ")
+                for c in range (a,7,1):
+                    print("*",end=" ")
+                for d in range (a,6,1):
+                    print("^", end=" ")
+                print()
+
+            for a in range (1,7):
+                for b in range (1,a,1):
+                    print(" ", end=" ")
+                for c in range (7, a, -1):
+                    print("*",end=" ")
+                for d in range (6, a, -1):
+                    print("^", end=" ")
+                print()
+        cc10(cc10)
+        continue
+
+    elif a == 11:
+        os.system('cls')
+        def cc11(cc11):
+            print("THIS IS CODE CHALLENGE 11")
+            for a in range (7,1,-1):
+                for b in range (1, a + 1):
+                    print(" ", end=" ")
+                for c in range (7, a, -1):
+                    print("*",end=" ")
+                for d in range (6, a, -1):
+                    print("*", end=" ")
+                print()
+
+            for a in range (1,7):
+                for b in range (1, a +1):
+                    print(" ", end=" ")
+                for c in range (4, a, -1):
+                    print("*",end=" ")
+                for d in range (6, a, -1):
+                    print("*", end=" ")
+                print()
+        cc11(cc11)
+        continue
+
+    elif a == 12:
+        os.system('cls')
+        print("THIS IS CODE CHALLENGE 12")
+        def cc12(cc12):
+            for j in range (1,5):
+                for z in range (5, j, -1):
+                    print(" ", end=" ")
+                for y in range (1, j + 1):
+                    print("*",end=" ")
+                for x in range (1, j+1):
+                    print("*", end=" ")
+                print() 
+
+            for c in range (0,4):
+                for b in range (4, 0, -1):
+                    print(" ", end=" ")
+                for d in range (2,4):
+                    print("*",end=" ")
+                for a in range (4,0,-1):
+                    print("  ",end=" ")
+                print()
+        cc12(cc12)
+        continue
+
+    elif a == 13:
+        os.system('cls')
+        def cc13(cc13):
+            print("THIS IS CODE CHALLENGE 13")
+            for x in range (1,7):
+                for y in range (6, x, -1):
+                    print(" ", end=" ")
+                for z in range (x, 1, -1):
+                    print(z, end=" ")
+                for a in range(1, x + 1):
+                    print(a, end=" ")
+                print()
+
+            for x in range (5,0,-1):
+                for y in range (6, x, -1):
+                    print(" ", end=" ")
+                for z in range (x, 1, -1):
+                    print(z, end=" ")
+                for a in range(1, x + 1):
+                    print(a, end=" ")
+                print()
+        cc13(cc13)
+        continue
+
+    elif a == 14:
+        os.system('cls')
+        def cc14(cc14):
+            print("THIS IS CODE CHALLENGE 14")
+            #loop has terminated
+            #the sum of all the numbers given is it
+
+            tuloy = True
+            total = 0
+
+            while tuloy == True:
+                num = eval(input("\nenter a number: "))
+
+                if num ==0:
+                    print("\n\tProgram Terminated")
+                    print(f"\nThe total of your numbers are {total}")
+                    break
+
+                else:
+                    total += num
+                    continue
+        cc14(cc14)
+        continue
+
+    elif a == 15:
+        os.system('cls')
+        def cc15(cc15):
+            print("THIS IS CODE CHALLENGE 15")
+            import os
+            isContinue = True
+            no = 0
+            while isContinue == True:
+                ask = input("\ndo u want triangle? (yes/no): ")
+
+                if ask.lower()== "no":
+                    os.system("cls")
+                    print("\tProgram Terminated")
+                    break
+                    isContinue = False
+
+                elif ask.lower()== "yes":
+                    os.system('cls')
+                    no += 1
+                    for a in range (1,6):
+                        for d in range (1,no + 1):
+                            for b in range (1, a + 1):
+                                print ("*", end=" ")
+
+                            for c in range ( 6, a, -1):
+                                print(" ", end=" ")
+                        print()
+                    continue
+                else:
+                    os.system("cls")
+                    print("invalid input, please try again!")
+                    continue
+        cc15(cc15)
+        continue
+
+    elif a == 16:
+        os.system('cls')
+        def cc16(cc16):
+            print("THIS IS CODE CHALLENGE 16")
+
+
+
