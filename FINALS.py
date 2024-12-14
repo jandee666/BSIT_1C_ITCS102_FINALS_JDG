@@ -854,9 +854,39 @@ while tuloy == True:
                     continue
         act20(act20)
         continue
+    elif a == 121:
+        os.system('cls')
+        def act21(act21):
+            print("THIS IS ACTIVITY 21")
+            import os
+            def pang_hello():
+                print("helloooo")
 
+            #function with parameter
+            def pang_hello_v2(name):
+                print(f"Hello {name}")
 
+            def activity2():
+                num1 = eval(input("enter any number: "))
+                num2 = eval(input("enter any number: "))
+                answer = num1 + num2
+                print(num1, "plus",num2, "=", answer)
 
+            tuloy = True
+            while tuloy == True:
+                ask = input("enter a name: ")
+
+                if ask.lower() != 'stop':
+                    os.system("cls")
+                    pang_hello_v2(ask)
+                    if ask == '2':
+                        activity2()
+                        continue
+                else:
+                    os.system("cls")
+                    break
+        act21(act21)
+        continue
 
 
 
