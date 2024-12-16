@@ -5,14 +5,14 @@ print("\nGood day! I'm John Derick Gaviola and this is the programs I created th
 
 tuloy = True
 while tuloy == True:
-    print("\n====================================================================================== \n\nCode Challenge1 === 1 \t\tActivity1 === 101 \nCode Challenge2 === 2 \t\tActivity2 === 102 \nCode Challenge3 === 3 \t\tACtivity3 === 103 \nCode Challenge4 === 4 \t\tActivity4 === 104 \nCode Challenge5 === 5 \t\tActivity5 === 105 \nCode Challenge6 === 6 \t\tActivity6 === 106 \nCode Challenge7 === 7 \t\tActivity7 === 107 \nCode Challenge8 === 8 \t\tActivity8 === 108 \nCode Challenge9 === 9 \t\tActivity9 === 109 \nCode Challenge10 == 10 \t\tACtivity10 == 110 \nCode Challenge11 == 11 \t\tActivity11 == 111 \nCode Challenge12 == 12 \t\tActivity12 == 112 \nCode Challenge13 == 13 \t\tActivity13 == 113 \nCode Challenge14 == 14 \t\tActivity14 == 114 \nCode Challenge15 == 15 \t\tActivtiy15 == 115 \nCode Challenge16 == 16 \t\tActivity16 == 116 \n\t\t\t\tActivity17 == 117 \n\t\t\t\tActivity18 == 118 \n\t\t\t\tActivity19 == 119 \n\t\t\t\tActivity20 == 120 \n\t\t\t\tActivity21 == 121 \n\t\t\t\tActivity22 == 122 \n\t\t\t\tActivity23 == 123 \n\t\t\t\tActivity24 == 124 \n\t\t\t\tActivity25 == 125\n \n======================================================================================")
-    a = int(input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
+    print("\n====================================================================================== \n\nCode Challenge1 === 1 \t\tActivity1 === 101 \nCode Challenge2 === 2 \t\tActivity2 === 102 \nCode Challenge3 === 3 \t\tACtivity3 === 103 \nCode Challenge4 === 4 \t\tActivity4 === 104 \nCode Challenge5 === 5 \t\tActivity5 === 105 \nCode Challenge6 === 6 \t\tActivity6 === 106 \nCode Challenge7 === 7 \t\tActivity7 === 107 \nCode Challenge8 === 8 \t\tActivity8 === 108 \nCode Challenge9 === 9 \t\tActivity9 === 109 \nCode Challenge10 == 10 \t\tACtivity10 == 110 \nCode Challenge11 == 11 \t\tActivity11 == 111 \nCode Challenge12 == 12 \t\tActivity12 == 112 \nCode Challenge13 == 13 \t\tActivity13 == 113 \nCode Challenge14 == 14 \t\tActivity14 == 114 \nCode Challenge15 == 15 \t\tActivtiy15 == 115 \nCode Challenge16 == 16 \t\tActivity16 == 116 \n\t\t\t\tActivity17 == 117 \n\t\t\t\tActivity18 == 118 \n\t\t\t\tActivity19 == 119 \n\t\t\t\tActivity20 == 120 \n\t\t\t\tActivity21 == 121 \n\t\t\t\tActivity22 == 122 \n\t\t\t\tActivity23 == 123 \n\t\t\t\tActivity24 == 124 \n\t\t\t\tActivity25 == 125\n\t\t\t\t\t\t\t  TERMINATE THE PROGRAM == 0\n \n======================================================================================")
+    a = eval(input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
     if a == 1:
         os.system("cls") 
-        def cc1():
+        def cc1(cc1):
             print("\nTHIS IS CODE CHALLENGE 1")
             print("\t\t\t\t\t\t\t\t\b*\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b\b\b*********\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b*")
-        cc1()
+        cc1(cc1)
         continue
 
     elif a == 2:
