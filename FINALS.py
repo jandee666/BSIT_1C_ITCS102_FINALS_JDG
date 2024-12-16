@@ -888,5 +888,72 @@ while tuloy == True:
         act21(act21)
         continue
 
+    elif a == 122:
+        os.system('cls')
+        def act22(act22):
+            print("THIS IS ACTIVITY 22")
+            def activity22():
+                def activity1():
+                    print("Hello World")
+                activity1()
+            activity22()
+
+        act22(act22)
+        continue
+
+    elif a == 123:
+        os.system('cls')
+        def act23(act23):
+            print("THIS IS ACTIVITY 23")
+            def factorial(number):
+                # This function's purpose is to compute/calculate the factorial of any number given 
+                fact = 1
+                for x in range(number, 0, -1):
+                    fact *= x
+
+                return fact
+
+            print(f"the factorial of 13 is {factorial(13)}")
+        act23(act23)
+        continue
+
+    elif a == 124:
+        os.system('cls')
+        def act24(act24):
+            print("THIS IS ACTIVITY 24")
+            from Activity23_sample import factorial
+
+            print(f"the factorial of 7 is {factorial(7)} ")
+        act24(act24)
+        continue
+
+    elif a == 125:
+        os.system('cls')
+        def act25(act25):
+            print("THIS IS ACTIVITY 25")
+            courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
+
+            courses.remove("Delete w/o index")
+            courses.pop()
+            courses.append("DHRS")
+            courses.insert(0, "ABELS")
+
+            print(courses)
+
+        act25(act25)
+        continue
 
 
+    elif a == 0:
+        os.system('cls')
+        def exit(exit):
+            print("HOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!!")
+        exit(exit)
+        break
+
+    else:
+        os.system('cls')
+        def wrong(wrong):
+            print("wrong input! please try again!")
+        wrong(wrong)
+        continue
