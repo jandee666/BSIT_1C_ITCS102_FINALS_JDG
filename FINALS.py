@@ -1,33 +1,71 @@
 #FINALS PROJECT FOR ITCS102
 #JOHN DERICK GAVIOLA IT1C
 import os
-print("\nGood day! I'm John Derick Gaviola and this is the programs I created through out my 1st year/1st sem of my college year. \nHope u enjoy exploring! ")
+print("\nGood day! I'm John Derick Gaviola and this is the programs I created through out my 1st year/1st sem of my college year.\nHope u enjoy exploring! :D")
 
 tuloy = True
 while tuloy == True:
-    print("\n====================================================================================== \n\nCode Challenge1 === 1 \t\tActivity1 === 101 \nCode Challenge2 === 2 \t\tActivity2 === 102 \nCode Challenge3 === 3 \t\tACtivity3 === 103 \nCode Challenge4 === 4 \t\tActivity4 === 104 \nCode Challenge5 === 5 \t\tActivity5 === 105 \nCode Challenge6 === 6 \t\tActivity6 === 106 \nCode Challenge7 === 7 \t\tActivity7 === 107 \nCode Challenge8 === 8 \t\tActivity8 === 108 \nCode Challenge9 === 9 \t\tActivity9 === 109 \nCode Challenge10 == 10 \t\tACtivity10 == 110 \nCode Challenge11 == 11 \t\tActivity11 == 111 \nCode Challenge12 == 12 \t\tActivity12 == 112 \nCode Challenge13 == 13 \t\tActivity13 == 113 \nCode Challenge14 == 14 \t\tActivity14 == 114 \nCode Challenge15 == 15 \t\tActivtiy15 == 115 \nCode Challenge16 == 16 \t\tActivity16 == 116 \n\t\t\t\tActivity17 == 117 \n\t\t\t\tActivity18 == 118 \n\t\t\t\tActivity19 == 119 \n\t\t\t\tActivity20 == 120 \n\t\t\t\tActivity21 == 121 \n\t\t\t\tActivity22 == 122 \n\t\t\t\tActivity23 == 123 \n\t\t\t\tActivity24 == 124 \n\t\t\t\tActivity25 == 125\n\t\t\t\t\t\t\t  TERMINATE THE PROGRAM == 0\n \n======================================================================================")
-    a = eval(input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")) 
-    if a == 1:
+#THIS IS THE MENU
+#I MAKE IT SIMPLE SO ITS EASY TO ACCESS
+    print("\n=======================================================")
+    print("||   CODE CHALLENGE         |          ACTIVITY      ||")
+    print("=======================================================")
+    print("|| CODE CHALLENGE1 == 1     |      ACTIVITY1 == 101  ||")
+    print("|| CODE CHALLENGE2 == 2     |      ACTIVITY2 == 102  ||")
+    print("|| CODE CHALLENGE3 == 3     |      ACTIVITY3 == 103  ||")
+    print("|| CODE CHALLENGE4 == 4     |      ACTIVITY4 == 104  ||")
+    print("|| CODE CHALLENGE5 == 5     |      ACTIVITY5 == 105  ||")
+    print("|| CODE CHALLENGE6 == 6     |      ACTIVITY6 == 106  ||")
+    print("|| CODE CHALLENGE7 == 7     |      ACTIVITY7 == 107  ||")
+    print("|| CODE CHALLENGE8 == 8     |      ACTIVITY8 == 108  ||")
+    print("|| CODE CHALLENGE9 == 9     |      ACTIVITY9 == 109  ||")
+    print("|| CODE CHALLENGE10 = 10    |      ACTIVITY10 = 110  ||")
+    print("|| CODE CHALLENGE11 = 11    |      ACTIVITY11 = 111  ||")
+    print("|| CODE CHALLENGE12 = 12    |      ACTIVITY12 = 112  ||")
+    print("|| CODE CHALLENGE13 = 13    |      ACTIVITY13 = 113  ||")
+    print("|| CODE CHALLENGE14 = 14    |      ACTIVITY14 = 114  ||")
+    print("|| CODE CHALLENGE15 = 15    |      ACTIVITY15 = 115  ||")
+    print("|| CODE CHALLENGE16 = 16    |      ACTIVITY16 = 116  ||")
+    print("||                          |      ACTIVITY17 = 117  ||")
+    print("||                          |      ACTIVITY18 = 118  ||")
+    print("||                          |      ACTIVITY19 = 119  ||")
+    print("||                          |      ACTIVITY20 = 120  ||")
+    print("||                          |      ACTIVITY21 = 121  ||")
+    print("||                          |      ACTIVITY22 = 122  ||")
+    print("||                          |      ACTIVITY23 = 123  ||")
+    print("||                          |      ACTIVITY24 = 124  ||")
+    print("||                          |      ACTIVITY25 = 125  ||")
+    print("=======================================================")
+    print("||             TERMINATE THE PROGRAM == 0            ||")
+    print("=======================================================")
+    print("                  ᴶᵒʰⁿ ᴰᵉʳᶦᶜᵏ ᴳᵃᵛᶦᵒˡᵃ                  ")
+
+    a = input("\nCHOOSE ONLY ONE CHALLENGE OR ACTIVITY U WANT TO OPEN (TYPE ONLY THE NUMBER): ")
+
+# CODE CHALLENGE 1
+    if a == "1":
         os.system("cls") 
         def cc1(cc1):
-            print("\nTHIS IS CODE CHALLENGE 1")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 1")
             print("\t\t\t\t\t\t\t\t\b*\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b\b\b*********\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b*")
         cc1(cc1)
         continue
 
-    elif a == 2:
+#CODE CHALLENGE 2
+    elif a == "2":
         os.system('cls')
         def cc2(cc2):
-            print("THIS IS CODE CHALLENGE 2")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 2")
             name = input ("Your name: ")
             print(" \t\t\t\t\t\t\t\t\b*\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b\b\b*"+name+"*\n\t\t\t\t\t\t\t\t\b\b\b\b*******\n\t\t\t\t\t\t\t\t\b\b\b*****\n\t\t\t\t\t\t\t\t\b\b***\n\t\t\t\t\t\t\t\t\b*")
         cc2(cc2)
         continue
 
-    elif a == 3:
+#CODE CHALLENGE 3
+    elif a == "3":
         os.system('cls')
         def cc3(cc3):
-            print("THIS IS CODE CHALLENGE 3")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 3")
             Fullname = input ("FULL NAME: ")
             Age = input ("AGE: ")
             Birthday = input ("BIRTHDAY: ")
@@ -46,10 +84,11 @@ while tuloy == True:
         cc3(cc3)
         continue
 
-    elif a == 4:
+#CODE CHALLENGE 4
+    elif a == "4":
         os.system('cls')
         def cc4(cc4):
-            print("THIS IS CODE CHALLENGE 4")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 4")
             number1 = eval(input("Put a digit here: "))
 
             number2 = eval(input("Put a digit here: "))
@@ -78,10 +117,11 @@ while tuloy == True:
         cc4(cc4)
         continue
 
-    elif a == 5:
+#CODE CHALLENGE 5
+    elif a == "5":
         os.system('cls')
         def cc5(cc5):
-            print("THIS IS CODE CHALLENGE 5")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 5")
             name = input("ENTER YOUR NAME: ")
             number1 = eval(input("ENTER AMOUNT TO DEPOSIT: "))
             answer1 = number1 // 1000
@@ -116,10 +156,11 @@ while tuloy == True:
         cc5(cc5)
         continue
 
-    elif a == 6:
+#CODE CHALLENGE 6
+    elif a == "6":
         os.system('cls')
         def cc6(cc6):
-            print("THIS IS CODE CHALLENGE 6")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 6")
             #Grading system
             #75 and above is considered PASS 
             #74 and below FAILED
@@ -148,10 +189,11 @@ while tuloy == True:
         cc6(cc6)
         continue
 
-    elif a == 7:
+#CODE CHALLENGE 7
+    elif a == "7":
         os.system('cls')
         def cc7(cc7):
-            print("THIS IS CODE CHALLENGE 7")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 7")
             name = input("Your name: ")
             grocery = input("Do you want to buy? (yes or no): ")
             if grocery.lower() == 'yes':
@@ -192,10 +234,11 @@ while tuloy == True:
         cc7(cc7)
         continue
     
-    elif a == 8:
+#CODE CHALLENGE 8
+    elif a == "8":
         os.system('cls')
         def cc8(cc8):
-            print("THIS IS CODE CHALLENGE 8")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 8")
             #collect/fetch 10 numbers from the user
             odd = 0
             even = 0
@@ -216,10 +259,11 @@ while tuloy == True:
         cc8(cc8)
         continue
 
-    elif a == 9:
+#CODE CHALLENGE 9
+    elif a == "9":
         os.system('cls')
         def cc9(cc9):
-            print("THIS IS CODE CHALLENGE 9")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 9")
             for a in range (11, 0 , -1):
                 for b in range (11, a, -1):
                     print(" ",end="")
@@ -227,10 +271,11 @@ while tuloy == True:
         cc9(cc9)
         continue
 
-    elif a == 10:
+#CODE CHALLENGE 10
+    elif a == "10":
         os.system('cls')
         def cc10(cc10):
-            print("THIS IS CODE CHALLENGE 10")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 10")
             for a in range (6,1,-1):
                 for b in range (a,1,-1):
                     print(" ", end=" ")
@@ -250,11 +295,11 @@ while tuloy == True:
                 print()
         cc10(cc10)
         continue
-
-    elif a == 11:
+#CODE CHALLENGE 11
+    elif a == "11":
         os.system('cls')
         def cc11(cc11):
-            print("THIS IS CODE CHALLENGE 11")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 11")
             for a in range (7,1,-1):
                 for b in range (1, a + 1):
                     print(" ", end=" ")
@@ -275,9 +320,10 @@ while tuloy == True:
         cc11(cc11)
         continue
 
-    elif a == 12:
+#CODE CHALLENGE 12
+    elif a == "12":
         os.system('cls')
-        print("THIS IS CODE CHALLENGE 12")
+        print("\n\t\t\tTHIS IS CODE CHALLENGE 12")
         def cc12(cc12):
             for j in range (1,5):
                 for z in range (5, j, -1):
@@ -299,10 +345,11 @@ while tuloy == True:
         cc12(cc12)
         continue
 
-    elif a == 13:
+#CODE CHALLENGE 13
+    elif a == "13":
         os.system('cls')
         def cc13(cc13):
-            print("THIS IS CODE CHALLENGE 13")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 13")
             for x in range (1,7):
                 for y in range (6, x, -1):
                     print(" ", end=" ")
@@ -323,10 +370,11 @@ while tuloy == True:
         cc13(cc13)
         continue
 
-    elif a == 14:
+#CODE CHALLENGE 14
+    elif a == "14":
         os.system('cls')
         def cc14(cc14):
-            print("THIS IS CODE CHALLENGE 14")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 14")
             #loop has terminated
             #the sum of all the numbers given is it
 
@@ -336,7 +384,7 @@ while tuloy == True:
             while tuloy == True:
                 num = eval(input("\nenter a number: "))
 
-                if num ==0:
+                if num == 0:
                     print("\n\tProgram Terminated")
                     print(f"\nThe total of your numbers are {total}")
                     break
@@ -347,10 +395,11 @@ while tuloy == True:
         cc14(cc14)
         continue
 
-    elif a == 15:
+#CODE CHALLENGE 15
+    elif a == "15":
         os.system('cls')
         def cc15(cc15):
-            print("THIS IS CODE CHALLENGE 15")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 15")
             import os
             isContinue = True
             no = 0
@@ -365,6 +414,7 @@ while tuloy == True:
 
                 elif ask.lower()== "yes":
                     os.system('cls')
+                    print("\n\t\t\tTHIS IS CODE CHALLENGE 15")
                     no += 1
                     for a in range (1,6):
                         for d in range (1,no + 1):
@@ -377,15 +427,17 @@ while tuloy == True:
                     continue
                 else:
                     os.system("cls")
+                    print("\n\t\t\tTHIS IS CODE CHALLENGE 15")
                     print("invalid input, please try again!")
                     continue
         cc15(cc15)
         continue
 
-    elif a == 16:
+#CODE CHALLENGE 16
+    elif a == "16":
         os.system('cls')
         def cc16(cc16):
-            print("THIS IS CODE CHALLENGE 16")
+            print("\n\t\t\tTHIS IS CODE CHALLENGE 16")
             def breakdown_denomination(amount):
                 print("Denomination Breakdown:")
                 denominations = (1000, 500, 200, 100, 50, 20, 10, 5, 1)
@@ -475,27 +527,30 @@ while tuloy == True:
         cc16(cc16)
         continue
 
-    elif a == 101:
+#ACTIVITY 1
+    elif a == "101":
         os.system('cls')
         def act1(act1):
-            print("THIS IS ACTIVITY 1")
+            print("\n\t\t\tTHIS IS ACTIVITY 1")
             print("\nHello World!")
         act1(act1)
         continue
 
-    elif a == 102: 
+#ACTIVITY 2
+    elif a == "102": 
         os.system('cls')
         def act2(act2):
-            print("THIS IS ACTIVITY 2")
+            print("\n\t\t\tTHIS IS ACTIVITY 2")
             name = input("Please enter a name: ")
             print("\nHi "+name, "luv u")
         act2(act2)
         continue
 
-    elif a == 103:
+#ACTIVITY3
+    elif a == "103":
         os.system('cls')
         def act3(act3):
-            print("THIS IS ACTIVITY 3\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 3\n")
             Fullname = input ("FULL NAME: ")
             Age = input ("AGE: ")
             Birthday = input ("BIRTHDAY: ")
@@ -514,10 +569,11 @@ while tuloy == True:
         act3(act3)
         continue
 
-    elif a == 104:
+#ACTIVITY 4
+    elif a == "104":
         os.system('cls')
         def act4(act4):
-            print("THIS IS ACTIVITY 4\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 4\n")
             number1 = eval(input("Put a digit here: "))
 
             number2 = eval(input("Put a digit here: "))
@@ -546,10 +602,11 @@ while tuloy == True:
         act4(act4)
         continue
 
-    elif a == 105:
+#ACTIVITY 5
+    elif a == "105":
         os.system('cls')
         def act5(act5):
-            print("THIS IS ACTIVITY 5\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 5\n")
             print("FAHRENHEIT TO CELSIUS CONVERTER ")
             temp = eval(input("\nEnter Temperature in Fahrenheit: "))
             
@@ -565,10 +622,11 @@ while tuloy == True:
         act5(act5)
         continue
     
-    elif a == 106:
+#ACTIVITY 6
+    elif a == "106":
         os.system('cls')
         def act6(act6):
-            print("THIS IS ACTIVITY 6\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 6\n")
             x = 5
             print(x)
 
@@ -589,10 +647,11 @@ while tuloy == True:
         act6(act6)
         continue
 
-    elif a == 107:
+#ACTIVITY 7
+    elif a == "107":
         os.system('cls')
         def act7(act7):
-            print("THIS IS ACTIVITY 7\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 7\n")
             gold = 0 
 
             miner = input("Hi, please enter your name: ")
@@ -607,10 +666,11 @@ while tuloy == True:
         act7(act7)
         continue
 
-    elif a == 108:
+#ACTIVITY 8
+    elif a == "108":
         os.system('cls')
         def act8(act8):
-            print("THIS IS ACTIVITY 8\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 8\n")
             password = input("Enter your password: ")
 
             if password.lower() == "secret":
@@ -629,10 +689,11 @@ while tuloy == True:
         act8(act8)
         continue
 
-    elif a == 109:
+#ACTIVITY 9
+    elif a == "109":
         os.system('cls')
         def act9(act9):
-            print("THIS IS ACTIVITY 9\n")
+            print("\n\t\t\tTHIS IS ACTIVITY 9\n")
             #age
             age = eval(input("Enter your age: "))
 
@@ -665,10 +726,11 @@ while tuloy == True:
         act9(act9)
         continue
 
-    elif a == 110:
+#ACTIVITY 10
+    elif a == "110":
         os.system('cls')
         def act10(act10):
-            print("THIS IS ACTIVITY 10")
+            print("\n\t\t\tTHIS IS ACTIVITY 10")
             isDLL = input("Are you a current student of DLL? (yes or no) ")
 
             if isDLL.lower() == 'yes':
@@ -691,10 +753,11 @@ while tuloy == True:
         act10(act10)
         continue
 
-    elif a == 111:
+#ACTIVITY 11
+    elif a == "111":
         os.system('cls')
         def act11(act11):
-            print("THIS IS ACTIVITY 11")
+            print("\n\t\t\tTHIS IS ACTIVITY 11")
             #print Hello World 10 times
             for x in range (1, 11):
                 print("\nHello World")
@@ -704,20 +767,22 @@ while tuloy == True:
         act11(act11)
         continue
 
-    elif a == 112:
+#ACTIVITY 12
+    elif a == "112":
         os.system('cls')
         def act12(act12):
-            print("THIS IS ACTIVITY 12")
+            print("\n\t\t\tTHIS IS ACTIVITY 12")
             # 10 to 1
             for x in range (10, 0, -1):
                 print(x)
         act12(act12)
         continue
 
-    elif a == 113:
+#ACTIVITY 13
+    elif a == "113":
         os.system('cls')
         def act13(act13):
-            print("THIS IS ACTIVITY 13")
+            print("\n\t\t\tTHIS IS ACTIVITY 13")
             #factorial
             num = eval(input("enter a number: "))
 
@@ -730,10 +795,11 @@ while tuloy == True:
         act13(act13)
         continue
 
-    elif a == 114:
+#ACTIVITY 14
+    elif a == "114":
         os.system('cls')
         def act14(act14):
-            print("THIS IS ACTIVITY 14")
+            print("\n\t\t\tTHIS IS ACTIVITY 14")
             # washing machine
             # settings
             for x in range (0, 10):
@@ -744,10 +810,11 @@ while tuloy == True:
         act14(act14)
         continue
 
-    elif a == 115:
+#ACTIVITY 15
+    elif a == "115":
         os.system("cls")
         def act15(act15):
-            print("THIS IS ACTIVITY 15")
+            print("\n\t\t\tTHIS IS ACTIVITY 15")
             for i in range (11, 0, -1):
                 print(end="")
                 for y in range ( 11, i, -1):
@@ -756,10 +823,11 @@ while tuloy == True:
         act15(act15)
         continue
 
-    elif a == 116:
+#ACTIVITY 16
+    elif a == "116":
         os.system('cls')
         def act16(act16):
-            print('THIS IS ACTIVITY 16')
+            print('\n\t\t\tTHIS IS ACTIVITY 16')
             for a in range (1,6):
                 for b in range (1, a+1):
                     print(" ", end=" ")
@@ -769,10 +837,11 @@ while tuloy == True:
         act16(act16)
         continue
 
-    elif a == 117:
+#ACTIVITY 17
+    elif a == "117":
         os.system("cls")
         def act17(act17):
-            print("THIS IS ACTIVITY 17")
+            print("\n\t\t\tTHIS IS ACTIVITY 17")
             #multiplication table
             a = eval(input("Enter a column:  "))
             for b in range (1,11):
@@ -782,10 +851,11 @@ while tuloy == True:
         act17(act17)
         continue
 
-    elif a == 118:
+#ACTIVITY 18
+    elif a == "118":
         os.system('cls')
         def act18(act18):
-            print("THIS IS ACTIVITY 18")
+            print("\n\t\t\tTHIS IS ACTIVITY 18")
             import os
 
             col = eval(input("how many do u want to make? "))
@@ -800,10 +870,11 @@ while tuloy == True:
         act18(act18)
         continue
 
-    elif a == 119:
+#ACTIVITY 19
+    elif a == "119":
         os.system('cls')
         def act19(act19):
-            print("THIS IS ACTIVITY 19")
+            print("\n\t\t\tTHIS IS ACTIVITY 19")
             #requirements and syntax of a while loop
             #sceario, ask user to give a name, and say hi to that name until user types the word 'stop'
 
@@ -825,23 +896,25 @@ while tuloy == True:
         act19(act19)
         continue
 
-    elif a == 120:
+#ACTIVITY 20
+    elif a == "120":
         os.system('cls')
         def act20(act20):
-            print("THIS IS ACTIVITY 20")
+            print("\n\t\t\tTHIS IS ACTIVITY 20")
             #HYBRID LOOP
             import os
             isContinue = True
             no = 0
             while isContinue == True:
-                ask = input("do u want triangle? (yes/no): ")
+                ask = input("\ndo u want triangle? (yes/no): ")
 
                 if ask.lower()== "no":
                     print("\tProgram Terminated")
                     break
-                    isContinue = False
-                else:
+                    # isContinue = False
+                elif ask.lower() == "yes":
                     os.system('cls')
+                    print("\n\t\t\tTHIS IS ACTIVITY 20")
                     no += 1
                     for a in range (1,6):
                         for d in range (1,no + 1):
@@ -852,13 +925,19 @@ while tuloy == True:
                                 print(" ", end=" ")
                         print()
                     continue
+                else:
+                    os.system('cls')
+                    print("\n\t\t\tTHIS IS ACTIVITY 20")
+                    print("WRONG INPUT! PLS TRY AGAIN!")
+                    continue
         act20(act20)
         continue
     
-    elif a == 121:
+#ACTIVITY 21
+    elif a == "121":
         os.system('cls')
         def act21(act21):
-            print("THIS IS ACTIVITY 21")
+            print("\n\t\t\tTHIS IS ACTIVITY 21")
             import os
             def pang_hello():
                 print("helloooo")
@@ -889,10 +968,11 @@ while tuloy == True:
         act21(act21)
         continue
 
-    elif a == 122:
+#ACTIVITY 22
+    elif a == "122":
         os.system('cls')
         def act22(act22):
-            print("THIS IS ACTIVITY 22")
+            print("\n\t\t\tTHIS IS ACTIVITY 22")
             def activity22():
                 def activity1():
                     print("Hello World")
@@ -902,10 +982,11 @@ while tuloy == True:
         act22(act22)
         continue
 
-    elif a == 123:
+#ACTIVITY 23
+    elif a == "123":
         os.system('cls')
         def act23(act23):
-            print("THIS IS ACTIVITY 23")
+            print("\n\t\t\tTHIS IS ACTIVITY 23")
             def factorial(number):
                 # This function's purpose is to compute/calculate the factorial of any number given 
                 fact = 1
@@ -918,20 +999,22 @@ while tuloy == True:
         act23(act23)
         continue
 
-    elif a == 124:
+#ACTIVITY 24
+    elif a == "124":
         os.system('cls')
         def act24(act24):
-            print("THIS IS ACTIVITY 24")
+            print("\n\t\t\tTHIS IS ACTIVITY 24")
             from Activity23_sample import factorial
 
             print(f"the factorial of 7 is {factorial(7)} ")
         act24(act24)
         continue
 
-    elif a == 125:
+#ACTIVITY 25
+    elif a == "125":
         os.system('cls')
         def act25(act25):
-            print("THIS IS ACTIVITY 25")
+            print("\n\t\t\tTHIS IS ACTIVITY 25")
             courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 
             courses.remove("Delete w/o index")
@@ -944,17 +1027,18 @@ while tuloy == True:
         act25(act25)
         continue
 
-
-    elif a == 0:
+#EXIT OR TERMINATE THE PROGRAM
+    elif a == "0":
         os.system('cls')
         def exit(exit):
-            print("\nHOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!! THIS IS JOHN DERICK GAVIOLA SIGNING OFF, ADIOS!\n")
+            print("\n\t\t\tHOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!! THIS IS JOHN DERICK GAVIOLA SIGNING OFF, ADIOS!\n")
         exit(exit)
         break
 
+#FOR WRONG OR RANDOM INPUTS
     else:
         os.system('cls')
         def wrong(wrong):
-            print("\nwrong input! please try again!")
+            print("\n\t\t\twrong input! please try again!")
         wrong(wrong)
         continue
