@@ -448,7 +448,7 @@ while tuloy == True:
                 account_balance = 0
 
                 while True:
-                    print("\n=== Welcome to J-Bank ===")
+                    print("\n=== Welcome to MYBank ===")
                     print("1. Create Account")
                     print("2. Deposit")
                     print("3. Withdraw")
