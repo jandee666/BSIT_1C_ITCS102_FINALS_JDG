@@ -854,6 +854,7 @@ while tuloy == True:
                     continue
         act20(act20)
         continue
+    
     elif a == 121:
         os.system('cls')
         def act21(act21):
@@ -947,13 +948,13 @@ while tuloy == True:
     elif a == 0:
         os.system('cls')
         def exit(exit):
-            print("HOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!!")
+            print("\nHOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!! THIS IS JOHN DERICK GAVIOLA SIGNING OFF, ADIOS!\n")
         exit(exit)
         break
 
     else:
         os.system('cls')
         def wrong(wrong):
-            print("wrong input! please try again!")
+            print("\nwrong input! please try again!")
         wrong(wrong)
         continue
