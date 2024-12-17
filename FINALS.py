@@ -8,7 +8,7 @@ while tuloy == True:
 #THIS IS THE MENU
 #I MAKE IT SIMPLE SO ITS EASY TO ACCESS
     print("\n=======================================================")
-    print("||   CODE CHALLENGE         |          ACTIVITY      ||")
+    print("||     CODE CHALLENGE       |          ACTIVITY      ||")
     print("=======================================================")
     print("|| CODE CHALLENGE1 == 1     |      ACTIVITY1 == 101  ||")
     print("|| CODE CHALLENGE2 == 2     |      ACTIVITY2 == 102  ||")
