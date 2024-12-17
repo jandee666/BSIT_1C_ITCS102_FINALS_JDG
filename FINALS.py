@@ -1034,7 +1034,7 @@ while tuloy == True:
     elif a == "0":
         os.system('cls')
         def exit(exit):
-            print("\n\t\t\tHOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!! THIS IS JOHN DERICK GAVIOLA SIGNING OFF, ADIOS!\n")
+            print("\nAND THATS THE PROGRAMS I'VE CREATED THROUGH OUT MY 1ST SEM/YEAR OF COLLEGE AT DALUBHASAAN NG LUNGSOD NG LUCENA(DLL). \nHOPE YOU ENJOY EXPLORING FROM MY CODES!! THANK YOU!! THIS IS JOHN DERICK GAVIOLA SIGNING OFF, ADIOS!\n")
         exit(exit)
         break
 
@@ -1045,3 +1045,5 @@ while tuloy == True:
             print("\n\t\t\twrong input! please try again!")
         wrong(wrong)
         continue
+
+#
