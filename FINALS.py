@@ -1,13 +1,16 @@
 #FINALS PROJECT FOR ITCS102
 #JOHN DERICK GAVIOLA IT1C
 import os
-print("\nGood day! I'm John Derick Gaviola and this is the programs I created through out my 1st year/1st sem of my college year.\nHope u enjoy exploring! :D")
+import datetime
+print("\nGood day! I'm John Derick Gaviola and this is the programs I created through out my 1st year/1st sem of my college year.\nHope u enjoy exploring! :D\n")
 
 tuloy = True
 while tuloy == True:
+    date = datetime.date.today()
+    print(date)
 #THIS IS THE MENU
 #I MAKE IT SIMPLE SO ITS EASY TO ACCESS
-    print("\n=======================================================")
+    print("=======================================================")
     print("||     CODE CHALLENGE       |          ACTIVITY      ||")
     print("=======================================================")
     print("|| CODE CHALLENGE1 == 1     |      ACTIVITY1 == 101  ||")
