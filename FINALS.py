@@ -1,5 +1,6 @@
 #FINALS PROJECT FOR ITCS102
 #JOHN DERICK GAVIOLA IT1C
+#John Derick Gaviola on Github ^-^
 import os
 import datetime
 print("\nGood day! I'm John Derick Gaviola and this is the programs I created through out my 1st year/1st sem of my college year.\nHope u enjoy exploring! :D\n")
