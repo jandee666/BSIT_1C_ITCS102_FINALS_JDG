@@ -878,6 +878,7 @@ while tuloy == True:
         os.system('cls')
         def act19(act19):
             print("\n\t\t\tTHIS IS ACTIVITY 19")
+            print("\n(type STOP to terminate the program) ")
             #requirements and syntax of a while loop
             #sceario, ask user to give a name, and say hi to that name until user types the word 'stop'
 
@@ -1046,4 +1047,4 @@ while tuloy == True:
         wrong(wrong)
         continue
 
-#
+#THANK YOU
